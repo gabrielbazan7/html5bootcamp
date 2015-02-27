@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   './classmovie.js' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json 03-Node-npm-modules@1.0.0 No description
+6 warn package.json 03-Node-npm-modules@1.0.0 No repository field.
+7 warn package.json 03-Node-npm-modules@1.0.0 No README data
+8 silly cache add args [ './classmovie.js', null ]
+9 verbose cache add spec ./classmovie.js
+10 silly cache add parsed spec { raw: './classmovie.js',
+10 silly cache add   scope: null,
+10 silly cache add   name: null,
+10 silly cache add   rawSpec: './classmovie.js',
+10 silly cache add   spec: 'C:\\Users\\enrique\\Desktop\\BOOTCAMP\\html5bootcamp\\practice\\03-Node-npm-modules\\classmovie.js',
+10 silly cache add   type: 'local' }
+11 silly addLocalTarball shasum (computed) eeaa3ada845268679cc2aca70194946cbcaa2883
+12 verbose addTmpTarball C:\Users\enrique\Desktop\BOOTCAMP\html5bootcamp\practice\03-Node-npm-modules\classmovie.js not in flight; adding
+13 verbose addTmpTarball validating metadata from C:\Users\enrique\Desktop\BOOTCAMP\html5bootcamp\practice\03-Node-npm-modules\classmovie.js
+14 verbose tar unpack C:\Users\enrique\Desktop\BOOTCAMP\html5bootcamp\practice\03-Node-npm-modules\classmovie.js
+15 verbose tar unpacking to C:\Users\enrique\AppData\Local\Temp\npm-3544-0bc8e6f5\unpack-3eb942f1974f
+16 verbose gentlyRm vacuuming C:\Users\enrique\AppData\Local\Temp\npm-3544-0bc8e6f5\unpack-3eb942f1974f
+17 silly gunzTarPerm modes [ '777', '666' ]
+18 error not a package C:\Users\enrique\Desktop\BOOTCAMP\html5bootcamp\practice\03-Node-npm-modules\classmovie.js
+19 error addLocal Could not install C:\Users\enrique\Desktop\BOOTCAMP\html5bootcamp\practice\03-Node-npm-modules\classmovie.js
+20 verbose stack Error: ENOENT, open 'C:\Users\enrique\AppData\Local\Temp\npm-3544-0bc8e6f5\unpack-3eb942f1974f\package.json'
+20 verbose stack     at Error (native)
+21 verbose cwd C:\Users\enrique\Desktop\BOOTCAMP\html5bootcamp\practice\03-Node-npm-modules
+22 error Windows_NT 6.1.7601
+23 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "./classmovie.js"
+24 error node v0.12.0
+25 error npm  v2.5.1
+26 error path C:\Users\enrique\AppData\Local\Temp\npm-3544-0bc8e6f5\unpack-3eb942f1974f\package.json
+27 error code ENOENT
+28 error errno -4058
+29 error enoent ENOENT, open 'C:\Users\enrique\AppData\Local\Temp\npm-3544-0bc8e6f5\unpack-3eb942f1974f\package.json'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -4058, true ]
