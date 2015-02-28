@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="normalize.css">
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<script src="http://code.jquery.com/jquery.js"> </script>
+		<script src="handlebars-v3.0.0.js"></script>
+	
+		<script src="underscore-min.js"></script>
+		<script src="backbone-min.js"></script>
+	</head>
+	<body>
+<header class="header"> <p id="welcome">  </p> </header>
+<section class="content"><h1>Movie Details:</h1></section>
+<p  id= "movie"></p>
+<h2>List Of Movies:</h2>
+<p  id= "movielist"></p>
+<nav id="album"></nav>
+<footer class="footer"></footer>
+</body>
+<script id="movie-template" type="text/x-handlebars-template">
+ <div>{{name}}</div>
+ <div>{{year}}</div>
+ <div>{{description}}</div>
+ <div>{{genre}}</div>
+</script>
+<script id="listmovies-template" type="text/x-handlebars-template">
+	<div>{{#list movies}}{{title}}{{year}} {{/list}}</div>
+</script>
+<script>
+var Movie = Backbone.Model.extend(
+{
+	inicialize: function(){
+		console.log("se ha creado una nueva istancia");
+	}
+});
+
+var terminator = new Movie({
+	titulo : "terminator the movie",
+	year : "1995"
+});
+
+terminator.toJson;
+
+terminator.get("titulo");
+
+terminator.set("year","2000");
+</script>
+
+</html>

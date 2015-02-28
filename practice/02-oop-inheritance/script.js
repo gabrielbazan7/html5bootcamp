@@ -54,6 +54,10 @@ var MovieObserver= function(){
 	};
 
 	MovieObserver.prototype.isObserving=function(){
+		if(this.Movie0 == 0)
+	{
+				console.log("The movie do not start");
+	}
 		if (this.movieO == 1)
 	{
 		console.log( "is playing");
