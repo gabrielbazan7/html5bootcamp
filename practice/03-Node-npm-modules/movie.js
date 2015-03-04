@@ -36,7 +36,7 @@ alien.getAttr("director");
 
 
 
-},{"./movie.js":2}],2:[function(require,module,exports){
+},{"./classmovie.js":2}],2:[function(require,module,exports){
 var Movie=function (){
  this.attr={
  	"title":"",
